@@ -22,5 +22,8 @@
   "homepage": "https://github.com/simplon-lyon/promo3-first-node#readme",
   "dependencies": {
     "mysql": "^2.14.1"
+  },
+  "devDependencies": {
+    "@types/mysql": "0.0.34"
   }
 }
