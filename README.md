@@ -4,6 +4,12 @@
 
 # First Node - Reboot
 
+The official documentation of Node : https://nodejs.org/dist/latest-v8.x/docs/api/
+
+And the documentation about filesystem : https://nodejs.org/dist/latest-v8.x/docs/api/fs.html
+
+Here are the instructions:
+
 1. create a new file `script.js`
 2. in `script.js` write a program which:
     - create a file `toto.txt`
