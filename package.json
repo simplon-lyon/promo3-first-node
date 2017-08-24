@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/simplon-lyon/promo3-first-node#readme",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
     "mysql": "^2.14.1"
   },
   "devDependencies": {

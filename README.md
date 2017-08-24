@@ -29,3 +29,14 @@ Instructions:
 2. serve an index page with a form:
     - the form must POST data to the `/auth` URL
 3. create an handler for `/auth` which display the data received
+
+We are going to restrict access to `/private` using
+`http-auth`: https://www.npmjs.com/package/http-auth
+
+Instructions:
+
+1. install `http-auth` using npm
+2. initialize the `http-auth` middleware
+3. create a new handler for `/private` and register the middleware
+
+
