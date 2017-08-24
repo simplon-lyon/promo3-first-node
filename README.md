@@ -22,6 +22,7 @@ Here are the instructions:
 
 We are going to submit a form to Node and parse the received data.
 Help from Stackoverflow: https://stackoverflow.com/a/12008719
+Doc from Express: http://expressjs.com/fr/4x/api.html#req.body
 
 Instructions:
 
