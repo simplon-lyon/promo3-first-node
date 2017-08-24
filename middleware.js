@@ -1,8 +1,15 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-let app = express();
+const auth = require('http-auth');
 
+let app = express();
 app.use(express.static('public'));
+
+let basic = auth.basic({
+    realm: "Toto",
+    file: __dirname + "/.htpasswd"
+});
+app.use("/private", auth.connect(basic));
 
 app.post(
     "/auth",

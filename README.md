@@ -24,7 +24,7 @@ We are going to submit a form to Node and parse the received data.
 Help from Stackoverflow: https://stackoverflow.com/a/12008719
 Doc from Express: http://expressjs.com/fr/4x/api.html#req.body
 
-Instructions:
+_Instructions:_
 
 1. create a web server using Node
 2. serve an index page with a form:
@@ -34,7 +34,7 @@ Instructions:
 We are going to restrict access to `/private` using
 `http-auth`: https://www.npmjs.com/package/http-auth
 
-Instructions:
+_Instructions:_
 
 1. generate a password file:
     - install htpasswd: `sudo apt install apache2-utils`
