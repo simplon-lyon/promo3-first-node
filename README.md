@@ -36,8 +36,12 @@ We are going to restrict access to `/private` using
 
 Instructions:
 
-1. install `http-auth` using npm
-2. initialize the `http-auth` middleware
-3. create a new handler for `/private` and register the middleware
+1. generate a password file:
+    - install htpasswd: `sudo apt install apache2-utils`
+    - add a new user: `htpasswd -c .htpasswd <username>`
+    - add `.htpasswd` to `.gitignore`
+2. install `http-auth` using npm
+3. initialize the `http-auth` middleware
+4. create a new handler for `/private` and register the middleware
 
 
